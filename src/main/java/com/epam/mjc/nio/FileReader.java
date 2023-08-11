@@ -32,9 +32,4 @@ public class FileReader {
 
         return profile;
     }
-
-    public static void main(String[] args) {
-        FileReader fileReader = new FileReader();
-        System.out.println(fileReader.getDataFromFile(new File("src/main/resources/Profile.txt")).toString());
-    }
 }
